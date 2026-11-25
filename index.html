@@ -1,300 +1,258 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>NOVA | Innovation, Technologie et Création</title>
-
-    <meta name="description"
-          content="NOVA : ingénierie, électronique, fabrication,
-          élevage, informatique, formations et créations.">
-
-    <meta name="theme-color" content="#0B1220">
-
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NOVA : ingénierie, fabrication, agro, services numériques, formations et créations textiles au Togo.">
+  <meta name="theme-color" content="#0B1220">
+  <title>NOVA — Des idées aux réalisations</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#accueil" aria-label="NOVA, accueil">
+        <span class="brand-mark">N</span>
+        <span>NOVA</span>
+      </a>
 
-    <!-- NAVIGATION -->
-    <header class="header">
-        <a href="index.html" class="logo">
-            <span class="logo-icon">N</span>
-            NOVA<span class="logo-point">.</span>
-        </a>
+      <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Ouvrir le menu">
+      <label class="menu-button" for="menu-toggle" aria-label="Afficher le menu">
+        <span></span><span></span><span></span>
+      </label>
 
-        <nav class="navigation">
-            <a href="#accueil">Accueil</a>
-            <a href="#activites">Nos activités</a>
-            <a href="#boutique">Boutique</a>
-            <a href="#apropos">À propos</a>
-            <a href="#contact" class="nav-contact">Contact</a>
-        </nav>
-    </header>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="#accueil">Accueil</a>
+        <a href="#activites">Nos pôles</a>
+        <a href="#boutique">Boutique</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
+  <main>
+    <section class="hero" id="accueil">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">UN ESPACE DE CRÉATION ET D'INNOVATION</span>
+          <h1>Des idées aux réalisations.<br><span>Construisons l'avenir.</span></h1>
+          <p>
+            NOVA rassemble des compétences en ingénierie, fabrication,
+            numérique, agro, formation et création pour transformer
+            les idées en solutions concrètes.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#activites">Découvrir NOVA</a>
+            <a class="button button-outline" href="#contact">Nous contacter</a>
+          </div>
+          <div class="hero-note">
+            <span class="status-dot"></span>
+            Ingéniosité · Savoir-faire · Innovation
+          </div>
+        </div>
 
-    <!-- ACCUEIL -->
-    <main>
+        <div class="hero-panel" aria-label="Présentation de NOVA">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-core">
+            <span class="core-symbol">N</span>
+            <strong>NOVA</strong>
+            <small>IMAGINER · CONCEVOIR · RÉALISER</small>
+          </div>
+          <div class="floating-chip chip-top">ENGINEERING</div>
+          <div class="floating-chip chip-right">FAB & TECH</div>
+          <div class="floating-chip chip-bottom">LEARNING</div>
+        </div>
+      </div>
+    </section>
 
-        <section class="hero" id="accueil">
+    <section class="intro-strip">
+      <div class="container strip-grid">
+        <div><strong>01</strong><span>Concevoir</span></div>
+        <div><strong>02</strong><span>Fabriquer</span></div>
+        <div><strong>03</strong><span>Former</span></div>
+        <div><strong>04</strong><span>Accompagner</span></div>
+      </div>
+    </section>
 
-            <div class="hero-content">
+    <section class="section" id="activites">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">CE QUE NOUS FAISONS</span>
+          <h2>Les six pôles de <span>NOVA</span></h2>
+          <p>Des domaines complémentaires réunis autour d'une même ambition : créer des solutions utiles.</p>
+        </div>
 
-                <span class="eyebrow">
-                    INNOVATION · TECHNOLOGIE · CRÉATION
-                </span>
+        <div class="pole-grid">
+          <article class="pole-card">
+            <div class="pole-icon">⌁</div>
+            <h3>NOVA Engineering</h3>
+            <p>Électricité, électronique, automatisation, domotique, schémas et prototypage avec Arduino et ESP32.</p>
+            <a href="#contact">Parler d'un projet <span>↗</span></a>
+          </article>
+          <article class="pole-card">
+            <div class="pole-icon">⚙</div>
+            <h3>NOVA Fab & Electronics</h3>
+            <p>Fabrication, composants électroniques, impression 3D, circuits imprimés et développement de prototypes.</p>
+            <a href="#contact">Parler d'un projet <span>↗</span></a>
+          </article>
+          <article class="pole-card">
+            <div class="pole-icon">⌂</div>
+            <h3>NOVA Agro</h3>
+            <p>Solutions et équipements pour l'élevage : aliments, mangeoires, abreuvoirs, poussinières et incubateurs.</p>
+            <a href="#boutique">Voir les produits <span>↗</span></a>
+          </article>
+          <article class="pole-card">
+            <div class="pole-icon">▣</div>
+            <h3>NOVA Digital Services</h3>
+            <p>Assistance informatique, installation de logiciels sous licence, maintenance et solutions numériques.</p>
+            <a href="#contact">Demander un service <span>↗</span></a>
+          </article>
+          <article class="pole-card">
+            <div class="pole-icon">⌘</div>
+            <h3>NOVA Academy</h3>
+            <p>Initiation et perfectionnement en informatique, électricité, électronique, microcontrôleurs et CAO.</p>
+            <a href="#contact">Découvrir les formations <span>↗</span></a>
+          </article>
+          <article class="pole-card">
+            <div class="pole-icon">✳</div>
+            <h3>NOVA Creative</h3>
+            <p>T-shirts vierges et personnalisés, créations graphiques, affiches et supports de communication.</p>
+            <a href="#textiles">Voir les créations <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-                <h1>
-                    Des idées aux réalisations.
-                    <span>Construisons l'avenir.</span>
-                </h1>
+    <section class="section section-dark" id="boutique">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">CATALOGUE NOVA</span>
+          <h2>Produits <span>disponibles</span></h2>
+          <p>Quelques exemples de produits proposés. Contacte-nous pour confirmer la disponibilité et les détails.</p>
+        </div>
 
-                <p>
-                    Bienvenue chez NOVA. Un espace dédié à
-                    l'ingénierie, la fabrication, la technologie,
-                    l'élevage, la formation et l'innovation.
-                </p>
-
-                <div class="hero-buttons">
-                    <a href="#activites" class="btn btn-primary">
-                        Découvrir nos activités
-                    </a>
-
-                    <a href="#boutique" class="btn btn-outline">
-                        Explorer la boutique
-                    </a>
-                </div>
-
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-visual product-placeholder agro-visual">
+              <span>AGRO</span><strong>Aliments<br>volailles</strong>
             </div>
-
-            <div class="hero-visual">
-                <div class="visual-card">
-                    <span class="visual-icon">⚡</span>
-                    <h3>NOVA WORKSPACE</h3>
-                    <p>Imagine · Create · Build</p>
-                    <div class="visual-line"></div>
-                    <span class="visual-caption">
-                        ENGINEERING & INNOVATION
-                    </span>
-                </div>
+            <div class="product-content">
+              <span class="product-category">NOVA AGRO</span>
+              <h3>Aliment pour volailles</h3>
+              <p>Ingrédients et aliments pour l'élevage.</p>
+              <div class="product-bottom">
+                <strong>350 FCFA <small>/ kg</small></strong>
+                <a href="https://wa.me/22897710870?text=Bonjour%20NOVA%2C%20je%20souhaite%20des%20informations%20sur%20les%20aliments%20pour%20volailles." target="_blank" rel="noopener">Commander ↗</a>
+              </div>
             </div>
+          </article>
 
-        </section>
-
-
-        <!-- ACTIVITES -->
-        <section class="section" id="activites">
-
-            <div class="section-heading">
-                <span class="eyebrow">NOS DOMAINES</span>
-                <h2>Découvrez NOVA</h2>
-                <p>
-                    Six pôles d'activités, une même ambition :
-                    transformer les idées en solutions concrètes.
-                </p>
+          <article class="product-card">
+            <div class="product-visual product-placeholder electronics-visual">
+              <span>FAB & ELECTRONICS</span><strong>Composants<br>électroniques</strong>
             </div>
-
-            <div class="activity-grid">
-
-                <article class="activity-card">
-                    <span class="card-icon">⚡</span>
-                    <h3>NOVA Engineering</h3>
-                    <p>
-                        Électricité, électronique, automatisation,
-                        domotique et conception de systèmes.
-                    </p>
-                </article>
-
-                <article class="activity-card">
-                    <span class="card-icon">🔬</span>
-                    <h3>NOVA Fab & Electronics</h3>
-                    <p>
-                        Prototypage, composants électroniques,
-                        impression 3D et fabrication.
-                    </p>
-                </article>
-
-                <article class="activity-card">
-                    <span class="card-icon">🐔</span>
-                    <h3>NOVA Agro</h3>
-                    <p>
-                        Élevage, alimentation animale,
-                        équipements et solutions avicoles.
-                    </p>
-                </article>
-
-                <article class="activity-card">
-                    <span class="card-icon">💻</span>
-                    <h3>NOVA Digital Services</h3>
-                    <p>
-                        Informatique, logiciels, assistance
-                        numérique et maintenance.
-                    </p>
-                </article>
-
-                <article class="activity-card">
-                    <span class="card-icon">🎓</span>
-                    <h3>NOVA Academy</h3>
-                    <p>
-                        Formations, cours pratiques,
-                        informatique et technologies.
-                    </p>
-                </article>
-
-                <article class="activity-card">
-                    <span class="card-icon">🎨</span>
-                    <h3>NOVA Creative</h3>
-                    <p>
-                        Personnalisation textile, graphisme,
-                        créations et communication.
-                    </p>
-                </article>
-
+            <div class="product-content">
+              <span class="product-category">NOVA FAB & ELECTRONICS</span>
+              <h3>Composants et accessoires</h3>
+              <p>Microcontrôleurs, capteurs et composants selon disponibilité.</p>
+              <div class="product-bottom">
+                <strong>Sur demande</strong>
+                <a href="https://wa.me/22897710870?text=Bonjour%20NOVA%2C%20je%20cherche%20des%20composants%20electroniques." target="_blank" rel="noopener">Demander ↗</a>
+              </div>
             </div>
+          </article>
 
-        </section>
-
-
-        <!-- BOUTIQUE -->
-        <section class="section shop-section" id="boutique">
-
-            <div class="section-heading">
-                <span class="eyebrow">NOTRE CATALOGUE</span>
-                <h2>Nos produits</h2>
-                <p>
-                    Découvrez nos produits et contactez-nous
-                    pour passer commande.
-                </p>
+          <article class="product-card">
+            <div class="product-visual product-placeholder textile-visual">
+              <span>CREATIVE</span><strong>T-shirts<br>personnalisés</strong>
             </div>
-
-            <div class="product-grid">
-
-                <article class="product-card">
-                    <div class="product-visual poultry">
-                        🐔
-                    </div>
-                    <div class="product-info">
-                        <span class="product-category">NOVA AGRO</span>
-                        <h3>Aliments pour volailles</h3>
-                        <p>
-                            Aliments et ingrédients destinés
-                            à la nutrition des volailles.
-                        </p>
-                        <strong>350 FCFA / kg</strong>
-                        <a href="#contact" class="product-link">
-                            Commander →
-                        </a>
-                    </div>
-                </article>
-
-                <article class="product-card">
-                    <div class="product-visual electronics">
-                        ⚙️
-                    </div>
-                    <div class="product-info">
-                        <span class="product-category">NOVA FAB</span>
-                        <h3>Composants électroniques</h3>
-                        <p>
-                            Microcontrôleurs, capteurs,
-                            résistances et accessoires.
-                        </p>
-                        <strong>Prix sur demande</strong>
-                        <a href="#contact" class="product-link">
-                            Commander →
-                        </a>
-                    </div>
-                </article>
-
-                <article class="product-card">
-                    <div class="product-visual creative">
-                        👕
-                    </div>
-                    <div class="product-info">
-                        <span class="product-category">NOVA CREATIVE</span>
-                        <h3>T-shirts personnalisés</h3>
-                        <p>
-                            Des créations originales
-                            et personnalisables.
-                        </p>
-                        <strong>Prix sur demande</strong>
-                        <a href="#contact" class="product-link">
-                            Commander →
-                        </a>
-                    </div>
-                </article>
-
+            <div class="product-content">
+              <span class="product-category">NOVA CREATIVE</span>
+              <h3>Textile personnalisé</h3>
+              <p>Modèles simples ou personnalisés selon vos envies.</p>
+              <div class="product-bottom">
+                <strong>À partir de 2 000 FCFA</strong>
+                <a href="#textiles">Voir l'offre ↗</a>
+              </div>
             </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        </section>
+    <section class="section textile-section" id="textiles">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">NOVA CREATIVE</span>
+          <h2>Nos créations <span>textiles</span></h2>
+          <p>Choisis ton modèle et contacte-nous pour passer commande.</p>
+        </div>
 
-
-        <!-- A PROPOS -->
-        <section class="about-section" id="apropos">
-
-            <div class="about-content">
-                <span class="eyebrow">QUI SOMMES-NOUS ?</span>
-                <h2>Bienvenue dans l'univers NOVA.</h2>
-
-                <p>
-                    NOVA est un espace de création, de conception,
-                    de fabrication, de commerce et de transmission
-                    des connaissances.
-                </p>
-
-                <p>
-                    Notre ambition est de rendre la technologie
-                    accessible, de développer des solutions
-                    pratiques et de partager notre savoir-faire.
-                </p>
-
-                <a href="#contact" class="btn btn-primary">
-                    Parlons de votre projet
-                </a>
+        <div class="poster-card">
+          <img
+            src="assets/images/produits/affiche-tshirts-nova.webp"
+            alt="Affiche NOVA présentant les T-shirts disponibles et leurs tarifs"
+            loading="lazy"
+          >
+          <div class="poster-caption">
+            <div>
+              <h3>T-shirts vierges et personnalisés</h3>
+              <p>Les couleurs et modèles sont à confirmer au moment de la commande.</p>
             </div>
+            <a class="button button-primary" href="https://wa.me/22897710870?text=Bonjour%20NOVA%2C%20je%20souhaite%20commander%20un%20T-shirt." target="_blank" rel="noopener">Commander sur WhatsApp ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        </section>
+    <section class="section" id="realisations">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">DU CONCEPT AU CONCRET</span>
+          <h2>Nos <span>réalisations</span></h2>
+          <p>Un espace pour présenter les prototypes, installations, fabrications et projets réalisés par NOVA.</p>
+        </div>
+        <div class="empty-gallery">
+          <div class="empty-gallery-icon">＋</div>
+          <h3>La galerie se construit</h3>
+          <p>Ajoute tes propres photos dans <code>assets/images/realisations/</code>, puis nous pourrons les afficher ici.</p>
+        </div>
+      </div>
+    </section>
 
+    <section class="about-section">
+      <div class="container about-grid">
+        <div>
+          <span class="eyebrow">À PROPOS</span>
+          <h2>Apprendre, expérimenter et <span>construire.</span></h2>
+        </div>
+        <div>
+          <p>NOVA est un espace orienté vers la technologie, la fabrication et la transmission des connaissances. Notre démarche consiste à partir d'un besoin, étudier une solution et progresser jusqu'à sa réalisation.</p>
+          <a class="text-link" href="#contact">Échangeons sur ton idée ↗</a>
+        </div>
+      </div>
+    </section>
 
-        <!-- CONTACT -->
-        <section class="section contact-section" id="contact">
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box">
+        <div>
+          <span class="eyebrow">UN BESOIN ? UNE IDÉE ?</span>
+          <h2>Construisons quelque chose <span>ensemble.</span></h2>
+          <p>Écris-nous pour une commande, une demande de service ou une collaboration.</p>
+        </div>
+        <a class="button button-primary" href="https://wa.me/22897710870?text=Bonjour%20NOVA%2C%20je%20vous%20contacte%20depuis%20votre%20site%20web." target="_blank" rel="noopener">Contacter NOVA sur WhatsApp ↗</a>
+      </div>
+    </section>
+  </main>
 
-            <div class="section-heading">
-                <span class="eyebrow">CONTACTEZ-NOUS</span>
-                <h2>Construisons quelque chose ensemble.</h2>
-                <p>
-                    Un produit à commander, un service à demander
-                    ou une idée à concrétiser ?
-                </p>
-
-                <a href="https://wa.me/228XXXXXXXX"
-                   class="btn btn-primary">
-                    Nous contacter sur WhatsApp
-                </a>
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer class="footer">
-
-        <a href="#accueil" class="logo">
-            NOVA<span class="logo-point">.</span>
-        </a>
-
-        <p>
-            Innovation · Technologie · Création
-        </p>
-
-        <p class="copyright">
-            © 2026 NOVA. Tous droits réservés.
-        </p>
-
-    </footer>
-
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#accueil"><span class="brand-mark">N</span><span>NOVA</span></a>
+      <p>Des idées aux réalisations.</p>
+      <small>© <span id="year">2026</span> NOVA. Tous droits réservés.</small>
+    </div>
+  </footer>
 </body>
 </html>
